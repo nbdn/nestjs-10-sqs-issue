@@ -1,0 +1,44 @@
+{
+  "files.exclude": {
+    // # Common
+    // "**/.vscode": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/dist": true
+  },
+  "search.exclude": {
+    // # Common
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/dist": true
+  },
+
+  // # Spell Check
+  "cSpell.language": "en,fr,fr-FR,en-GB,en-US",
+
+  // # DevX
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.guides.bracketPairs": true,
+  "files.autoSave": "onFocusChange",
+
+  // # Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+
+  // # Language
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // # File Extensions
+  "makefile.extensionOutputFolder": "./.vscode",
+
+  // # VSCode Extensions
+  "errorLens.onSave": true
+}
